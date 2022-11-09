@@ -7,31 +7,40 @@
     width: 400px;
     margin: auto;
     background-color: #E8DFCA;
-
+    
     box-shadow: 10px 10px 8px 10px #888888;
 
 }
 .display-box {
-    font-family: 'Orbitron', sans-serif;
+  font-family: 'Brush Script MT', cursive;
+  font-size:40px;
     background-color: #F7F7F7;
     border: solid black 0.5px;
     color: black;
     border-radius: 30px;
     width: 95%;
     height: 100%;
+  
 }
 #btn {
     background-color: #EB6440;
 /*     width:30px; */
 }
 input[type=button] {
-    font-family: 'Orbitron', sans-serif;
-    background-color: #98A8F8;
+  font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+    background-color: #E94560;
     border-radius: 30px;
     color: white;
     width: 85%;
     height: 70%;
     outline: none;
+      box-shadow:  2px 2px 2px 2px #888888;
+
+}
+input:hover[type=button]{
+  color: #16213E;
+
 }
 input:active[type=button] {
     background: #D2001A;
