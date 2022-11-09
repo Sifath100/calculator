@@ -6,34 +6,35 @@
     height: 380px;
     width: 400px;
     margin: auto;
-    background-color: #C8FFD4;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #E8DFCA;
+
+    box-shadow: 10px 10px 8px 10px #888888;
+
 }
 .display-box {
     font-family: 'Orbitron', sans-serif;
     background-color: #F7F7F7;
     border: solid black 0.5px;
     color: black;
-    border-radius: 5px;
-    width: 85%;
-    height: 65%;
+    border-radius: 30px;
+    width: 95%;
+    height: 100%;
 }
 #btn {
     background-color: #EB6440;
-    margin-left: 5px;
+/*     width:30px; */
 }
 input[type=button] {
     font-family: 'Orbitron', sans-serif;
     background-color: #98A8F8;
+    border-radius: 30px;
     color: white;
-    border: solid black 0.5px;
-    width: 90%;
-    border-radius: 5px;
+    width: 85%;
     height: 70%;
     outline: none;
 }
 input:active[type=button] {
-    background: #e5e5e5;
+    background: #D2001A;
     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
     box-shadow: inset 0px 0px 5px #c1c1c1;
